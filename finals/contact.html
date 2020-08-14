@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="contactheader">
+            <h1 class="top">Abhimanyu KC</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a class="currentpage" href="contact.html">Contact</a></li>                 <!--setting the active page link-->
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <main>
+                <form method="GET" action="index.html">                                         <!--Creating HTML Forms-->
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" id="fname">
+                        
+                    <label for="lname">Last Name</label>                                        <!--setting input for name-->
+                    <input type="text" name="lname" id="lname">
+
+                    <label for="email">Your e-mail</label>
+                    <input type="text" name="email" id="email">                                 <!--setting input for email-->
+
+                    <label for="message">Your message</label>
+                    <textarea name="message" id="message"></textarea>                           <!--setting input for messages or comments-->
+
+                    <input type="submit" value="Send message" id="submit">
+                </form>
+            </main>
+        </div>
+        <footer>
+            <a class="scrolltop" href="#top">Scroll to top</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a class="currentpage" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p> Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>
